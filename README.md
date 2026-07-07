@@ -14,13 +14,13 @@ This project analyzes 12 months of pizza sales data (50,000 pizzas, ₹817.86K r
 4. KPI Requirement
    We aim to analyze key performance indicators (KPIs) from pizza sales data to gain meaningful insights into business performance. The following metrics are 
    calculated:
--Total Revenue Sum of the total price of all pizza orders.
--Average Order Value (AOV) Average amount spent per order (Total Revenue ÷ Total Orders)
--Total Pizzas Sold Total quantity of pizzas sold.
--Total Orders Total number of orders placed.
--Average Pizzas per Order Average number of pizzas per order (Total Pizzas ÷ Total Orders)
+   -Total Revenue Sum of the total price of all pizza orders.
+   -Average Order Value (AOV) Average amount spent per order (Total Revenue ÷ Total Orders)
+   -Total Pizzas Sold Total quantity of pizzas sold.
+   -Total Orders Total number of orders placed.
+   -Average Pizzas per Order Average number of pizzas per order (Total Pizzas ÷ Total Orders)
 
-5. Charts Requirement
+5. Charts --
    1. Time-Based Trends - 
       Daily Orders (Bar Chart): Catches daily spikes and weekly order patterns.
       Monthly Orders (Line Chart): Spots seasonal peaks and high-activity months.
@@ -39,7 +39,7 @@ This project analyzes 12 months of pizza sales data (50,000 pizzas, ₹817.86K r
     * Seasonal Swings: Summer is massive—June and May are peak months, outperforming our February slump by 57%.
     * Classic pizzas are the top seller (27%), but Supreme, Veggie, and Chicken are right behind them. This even split is great news—it means we aren’t overly reliant on just one item.
     * Size Matters-- Customers overwhelmingly prefer Large (46%) and Medium (30%) sizes. Extra-Large is dead weight at just 1.8% of sales, making it a prime candidate to pull from the menu.
-    * Thai Chicken and Barbeque bring in the most cash (₹43K each), while Classic Deluxe is the volume king (2,500 units sold).
+    * Thai Chicken and Barbeque bring in the most cash (₹43K each), while Classic Deluxe is the king (2,500 units sold).
     * The Underperformers: Our bottom five pizzas combined generate less than 9% of our total revenue (₹72K). They are taking up inventory space and need a recipe rethink or a permanent cut.
 
 7. Recommadations-
