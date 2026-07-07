@@ -1,5 +1,5 @@
-# pizza-sales-dashboard
-PIZZA SALES REPORT Data Analysis -using Power BI
+# Pizza-Sales-Dashboard
+PIZZA SALES REPORT -Using Power BI
 
 1. PROJECT OBJECTIVE - 
 This project analyzes 12 months of pizza sales data (50,000 pizzas, ₹817.86K revenue) across product categories and sizes to identify demand patterns, revenue opportunities, and strategic recommendations for business growth.
