@@ -5,14 +5,15 @@ PIZZA SALES REPORT Data Analysis -using Power BI
 This project analyzes 12 months of pizza sales data (50,000 pizzas, ₹817.86K revenue) across product categories and sizes to identify demand patterns, revenue opportunities, and strategic recommendations for business growth.
 
 2. Tech Stack-
-   Power bi desktop -Main data visualization platform used for report creation.
+   Power bi desktop - Main data visualization platform used for report creation.
    Power Query - Data transformation and cleaning layer for reshaping and preparing the data.
    DAX - Data analysis Expression - Used for calculated measures,conditional logic.
 
 3. Data source - Youtube
 
 4. KPI Requirement
-We aim to analyze key performance indicators (KPIs) from pizza sales data to gain meaningful insights into business performance. The following metrics are calculated:
+   We aim to analyze key performance indicators (KPIs) from pizza sales data to gain meaningful insights into business performance. The following metrics are 
+   calculated:
 -Total Revenue Sum of the total price of all pizza orders.
 -Average Order Value (AOV) Average amount spent per order (Total Revenue ÷ Total Orders)
 -Total Pizzas Sold Total quantity of pizzas sold.
@@ -20,29 +21,36 @@ We aim to analyze key performance indicators (KPIs) from pizza sales data to gai
 -Average Pizzas per Order Average number of pizzas per order (Total Pizzas ÷ Total Orders)
 
 5. Charts Requirement
-We visualize various aspects of pizza sales data to gain insights and understand key trends. The following requirements for creating charts have been identified:
--Daily Trend for Total Orders Bar chart displaying daily order trends. This chart helps identify patterns or fluctuations in order volumes on a daily basis.
--Monthly Trend for Total Orders Line chart showing monthly order patterns. This chart identifies peak months or periods of high order activity.
--Percentage of Sales by Pizza Category Pie chart showing category distribution. This chart provides insights into the popularity of various pizza categories.
--Percentage of Sales by Pizza Size Pie chart representing size-based sales. This chart helps understand customer preferences for pizza sizes.
--Total Pizzas Sold by Pizza Category Bar chart comparing category sales. This chart allows comparison of the sales performance of different pizza categories.
--Top 5 Best Sellers Bar charts for revenue, quantity, and order count. This helps identify the most popular pizza options.
--Bottom 5 Worst Sellers Bar charts identifying underperforming options. This helps identify underperforming or less popular pizza options.
+   1. Time-Based Trends - 
+      Daily Orders (Bar Chart): Catches daily spikes and weekly order patterns.
+      Monthly Orders (Line Chart): Spots seasonal peaks and high-activity months.
+   2. Sales & Product Breakdown - 
+      Sales % by Category (Pie Chart): Shows which pizza styles drive the most revenue.
+      Sales % by Size (Pie Chart): Pinpoints customer size preferences (e.g., Large vs. Medium).
+      Total Sold by Category (Bar Chart): Directly compares the physical volume of pizzas sold across types.
+   3. Performance Rankings - 
+      Top 5 Best Sellers (Bar Charts): Flags the MVP pizzas based on revenue, total quantity, and order count.
+      Bottom 5 Worst Sellers (Bar Charts): Highlights underperforming menu items that might need a recipe rethink or a marketing push.
 
 6. Project Insights
-REVENUE & PERFORMANCE • Total Revenue: ₹817.86K from 21,000 orders (50,000 pizzas sold, avg ₹38.31 per order) • Customer Behavior: Average 2.32 pizzas per order indicates moderate basket size with upselling potential • Peak Days: Friday (3,500 orders) and Saturday (3,200 orders) drive 33% of weekly volume
-PRODUCT CATEGORY INSIGHTS • Leader: Classic pizzas (26.91%) with 14,888 units sold, closely followed by Supreme, Veggie, and Chicken (23-26% each) • Balanced Portfolio: No category dominance eliminates revenue concentration risk • Strategic Implication: Diversified mix allows flexible operations and ingredient sourcing
-SIZE PREFERENCE ANALYSIS • Strong Demand: Large (45.89%) and Medium (30.49%) capture 76% of sales; lower X-Large adoption (1.84%) • Recommendation: Focus marketing on Large/Medium sizes; consider discontinuing underperforming X-Large variant
-SEASONAL & TEMPORAL PATTERNS • Peak Months: June (3,935 orders) and May (1,853 orders) show 57% higher demand than February low point • Weekend Effect: 33% more orders Friday-Saturday vs. weekdays; Sunday shows lowest demand (2,600 orders) • Opportunity: Smoothen revenue gap through February-March promotions
-TOP PERFORMERS VS. UNDERPERFORMERS • Revenue Leaders: Thai Chicken (43K), Barbeque (43K), California Pizza (41K) drive premium revenue • Volume Leaders: Classic Deluxe (2,500 units), Barbeque (2,400 units) show mass-market appeal • Bottom 5 Pizzas: Generate only 72K revenue (8.8% of total) - candidates for menu optimization
+   Walkthrough of Key Visuals - 
+    * We brought in ₹817.86K across 21,000 orders (selling 50,000 pizzas total).
+    * The Weekend Rush: Friday (3,500 orders) and Saturday (3,200 orders) are our heavy hitters, driving 33% of our weekly volume. Sunday is actually our slowest day.
+    * Seasonal Swings: Summer is massive—June and May are peak months, outperforming our February slump by 57%.
+    * Classic pizzas are the top seller (27%), but Supreme, Veggie, and Chicken are right behind them. This even split is great news—it means we aren’t overly reliant on just one item.
+    * Size Matters-- Customers overwhelmingly prefer Large (46%) and Medium (30%) sizes. Extra-Large is dead weight at just 1.8% of sales, making it a prime candidate to pull from the menu.
+    * Thai Chicken and Barbeque bring in the most cash (₹43K each), while Classic Deluxe is the volume king (2,500 units sold).
+    * The Underperformers: Our bottom five pizzas combined generate less than 9% of our total revenue (₹72K). They are taking up inventory space and need a recipe rethink or a permanent cut.
 
-7. Recommadations- 
--BUNDLE PROMOTIONS ON WEEKENDS Large + Medium pizza bundles on Friday-Saturday to increase average order value from ₹38.31 to ₹42+ (+10-15% revenue)
--DISCONTINUE X-LARGE VARIANT Phase out lowest-performing size (1.84% sales) to reduce production complexity and focus on Large/Medium sizes
--SEASONAL CAMPAIGNS (FEB-MARCH) Launch promotions during low-demand period to offset 57% seasonal dip and improve revenue consistency
--PREMIUM PRICING ON TOP 5 PIZZAS Increase prices by 8-12% on best-sellers (Thai Chicken, Barbeque, California Pizza) to boost gross margins by 10-15%
--WEEKDAY VALUE MENU Create special offers for Monday-Wednesday to increase weekday orders by 20-25% and reduce weekend dependency
+7. Recommadations-
+    * Weekend Bundles: Pair Large and Medium pizzas on Fridays and Saturdays to nudge the average order value up from ₹38 to ₹42+.
+    * Kill the XL Size: It accounts for less than 2% of sales. Dropping it entirely will immediately simplify kitchen operations and ingredient tracking.
+    * Winter Rescue: Launch targeted promos in February and March to patch up that massive 57% seasonal slump.
+    * Premium Pricing: Bump prices by 8–12% on fan favorites like Thai Chicken and Barbeque. They are popular enough to absorb the hike, giving a quick boost to profit margins.
+    * Weekday Value Menus: Create Monday–Wednesday deals to lift slow-day orders by 20% and take some of the pressure off the chaotic weekend rush.
 
-8. Screenshots-https://github.com/rinkuwankhede/pizza-sales-dashboard/blob/main/pizza%20sales%20report%20ss1.png
+
+8. Screenshots-![PAGE ](https://github.com/rinkuwankhede/pizza-sales-dashboard/blob/main/pizza%20sales%20report%20ss1.png)
+
 
    
